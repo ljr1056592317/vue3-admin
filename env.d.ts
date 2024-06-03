@@ -1,0 +1,23 @@
+/// <reference types="vite/client" />
+declare module 'slash2'
+declare module '*.css'
+declare module '*.less'
+declare module '*.scss'
+declare module '*.sass'
+declare module '*.svg'
+declare module '*.png'
+declare module '*.jpg'
+declare module '*.jpeg'
+declare module '*.gif'
+declare module '*.bmp'
+declare module '*.tiff'
+declare module 'crypto-js'
+declare module 'nprogress'
+declare module 'zxcvbn'
+declare module 'lodash-es'
+declare module '*.ts'
+declare module '*.vue' {
+    import { defineComponent } from 'vue'
+    const Component: ReturnType<typeof defineComponent>
+    export default Component
+}
